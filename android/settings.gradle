@@ -1,0 +1,5 @@
+rootProject.name = 'ReactSimplSDKSample'
+
+include ':app'
+include ':react-native-android-library-simpl-sdk'
+project(':react-native-android-library-simpl-sdk').projectDir = new File(settingsDir, '../node_modules/react-native-android-library-simpl-sdk/android')
